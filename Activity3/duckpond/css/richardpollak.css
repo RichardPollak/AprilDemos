@@ -1,0 +1,176 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+ font-family: "helvetica neue", arial, verdana, sans-serif;
+}
+body{
+  background-color: purple;
+  text-align: center;
+}
+h1{
+  display: inline-block;
+  margin: 15px auto;
+  padding: 10px;
+  background-color: yellow;
+  border: 5px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px blue;
+}
+nav{
+  margin: 5px auto;
+}
+nav a{
+  color: black;
+  font-weight: bold;
+  background-color: #ffc107;
+  padding: 5px;
+  border: 3px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0px blue;
+  text-decoration: none;
+}
+main{
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+h3{
+  font-size: 150%;
+}
+section{
+  display: inline-block;
+  margin: 25px;
+  padding: 25px;
+  border: 5px solid blue;
+  border-radius: 25px;
+  box-shadow: 15px 15px 15px black;
+}
+p::first-letter, span{
+  margin: 5px;
+  padding: 3px;
+  background-color: green;
+  border: 3px solid brown;
+  box-shadow: 2px 2px 0px black;
+}
+#about{
+  width: 535px;
+  background: linear-gradient(to right, white, yellow);
+}
+#about img{
+  margin: 0 65px 10px 65px;
+  background: #ffc107;
+  color: white;
+  width: 385px;
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+#about p{
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 160%;
+  font-size: 110%;
+}
+#information{
+  vertical-align: top;
+  width: 535px;
+  background: linear-gradient(to right, yellow, white);
+}
+#information h4{
+  background-color: #ffc107;
+  display: inline-block;
+  padding: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+#information p{
+  background-color: #ffc107;
+  padding: 10px;
+  line-height: 150%;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 3px solid black
+}
+table{
+  font-size: 115%;
+  margin: 25px auto;
+  padding: 5px;
+  background-color: grey;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 black;
+}
+table *{
+  padding: 3px;
+  border: 2px solid black;
+}
+th{
+  font-weight: bold;
+  color: red;
+  background-color: black;
+  margin-bottom: 3px;
+}
+td{
+  margin-bottom: 1px;
+  background-color: red;
+}
+form{
+  display: inline-block;
+  margin: 25px auto;
+}
+label{
+  background-color: #ffc107;
+}
+label, input{
+  display: block;
+  padding: 5px 10px;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+[for="name"]{
+  border-top: 3px solid black;
+}
+[type="text area"],[type="submit"]{
+  border-bottom: 3px solid black;
+}
+#interests{
+  margin: 0 auto 0 50px;
+  display: inline-block;
+  vertical-align: top;
+}#interests *{
+  margin: 15px 0;
+  font-weight: bold;
+}
+h5{
+  font-size: 150%;
+  font-weight: bold;
+}
+#sitemap{
+  display: block;
+  background: linear-gradient(to right, purple, blue, grey, grey, grey, grey, grey, blue, purple);
+}
+ul li:first-child{
+  font-weight: bold;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+ul li:last-child{
+  border-bottom: 3px solid black;
+}
+#sitemap ul{
+  display: inline-block;
+  vertical-align: top;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+#sitemap ul li{
+  display: block;
+  padding: 0 3px;
+  margin: 0;
+  text-align: left;
+  background-color: grey;
+}
